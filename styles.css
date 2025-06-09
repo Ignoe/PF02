@@ -1,0 +1,152 @@
+* {
+  background-color: rgb(245, 231, 236);
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+}
+
+.item-lista {
+  flex: 1;
+  text-align: center;
+  
+}
+
+.titulo {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+h2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.parrafo p1 {
+  text-align: justify;
+  font-size: 1.5rem;
+ 
+}
+
+.parrafo p2 {
+  text-align: justify;
+  font-size: 1.5rem;
+
+}
+
+.contenedor-quehago p {
+  font-size: 1.5rem;
+  
+}
+
+.contenedor-quehago  {
+  font-size: 1.5rem;
+
+}
+.contenedor-texto { 
+  font-size: 1.5rem;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.sobremi p1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.sobremi p2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+.tabla {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.tabla table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 70%;
+  height: 200px;
+}
+.tabla img {
+  width: 350px;
+  height: 200px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  background-color: #8e8e8ebf;
+  font-weight: 1000;
+}
+
+.formulario {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.formulario input {
+  margin-bottom: 5px;
+  width: 370px;
+}
+
+.caja {
+  text-align: center;
+}
+
+.boton {
+  text-align: center;
+  margin-top: 15px;
+  transition: 3.5s ease-in-out;
+}
+.boton :hover {
+  color: chocolate;
+}
+
+footer {
+  text-align: right;
+  opacity: 0.25;
+}
+
+/* Tablet horizontal */
+@media (max-width: 1080px) {
+}
+/*Tablet vertical*/
+@media (max-width: 768px) {
+}
+/* Mobil 1 */
+@media (max-width: 480px) {
+}
+
+/*Mobil 2*/ 
+@media (min-width: 375px) {
+
+}

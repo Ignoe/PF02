@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mi perfil</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <main class="contenedor">
+      <nav>
+        <ul class="lista">
+          <li class="item-lista"><a href="#sub-1">¿Qué hago?</a></li>
+          <li class="item-lista"><a href="#sub-2">Sobre mi</a></li>
+          <li class="item-lista"><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <h1 class="titulo">Ignacio Andrés Noé</h1>
+
+      <div class="parrafo">
+        <p1>
+          ¡Hola!, mi nombre es Ignacio Noé, actualmente soy estudiante y me
+          encuentro cursando el segundo año de la carrera Tecnicatura superior
+          en desarrollo de software del IFTS 16 de la ciudad de Buenos Aires,
+          Argentina.
+        </p1>
+        <p2>
+          Esta pagina es una herramienta de presentacion y a la vez es una
+          muestra de como puedo generar y hacer evolucionar una pagina web.
+        </p2>
+      </div>
+
+      <h2 id="sub-1">¿Que hago?</h2>
+
+      
+        <div class="contenedor-quehago">
+          <p>Actualmente realizo:</p>
+        </div>
+          
+        <div class="contenedor-texto">
+            <i class="fa-solid fa-globe"></i>
+            <span>Desarrollo web</span>
+        </div>
+          
+        <div class="contenedor-texto">
+            <i class="fa-solid fa-code"></i>
+            <span>Desarrollo Backend</span>
+        </div>
+        
+      
+
+      
+      <h2 id="sub-2">Sobre mi</h2>
+      
+
+      <div class="sobremi">
+        <p1>
+          Vivo en la que es mi ciudad de origen Buenos Aires, Argentina. Soy una
+          persona detallista, que busca aprender y mejorar dia a dia en todas
+          las actividades que realizo, con el mayor enfasis posible.
+        </p1>
+        <p2>
+          Entre mis mayores intereses se destacan el desarrollo web, la musica
+          (retro), el cine (retro tambien jaja), los deportes y viajar cada vez
+          que es posible.
+        </p2>
+      </div>
+
+      <div class="tabla">
+        <table>
+          <tr>
+            <th>Tecnologias conocidas</th>
+            <th>Tecnologias a conocer</th>
+            <th>Hobbies</th>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Javascript</td>
+            <td>Deportes</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>React</td>
+            <td>Viajar</td>
+          </tr>
+          <tr>
+            <td>React Native</td>
+            <td>Kotlin</td>
+            <td>Escuchar musica</td>
+          </tr>
+        </table>
+        <img class="imagen" src="foto.jpg" alt="Imagen"/>
+
+      </div>
+
+      <div class="formulario">
+        <form>
+          <p id="contacto">Contacto</p>
+          <input type="text" placeholder="Nombre" /> <br />
+          <input type="text" placeholder="Apellido" /> <br />
+          <input type="email" placeholder="Email" /> <br />
+          <input type="tel" placeholder="Telefono" /> <br />
+        </form>
+      </div>
+
+      <div class="caja">
+        <textarea
+          name="texto"
+          id="casilla"
+          cols="50"
+          rows="14"
+          maxlength="600"
+          required
+          placeholder="Ingrese su mensaje aqui"
+        ></textarea>
+      </div>
+
+      <div class="boton">
+        <button type="button">Enviar</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>Creado por Ignacio Noé - 2025</p>
+    </footer>
+  </body>
+</html>
